@@ -29,6 +29,6 @@ public class Enemy_1 : Enemy {
         this.transform.rotation = Quaternion.Euler(rot);
 
         base.Move();
-        print(bndCheck.isOnScreen);
+        //print(bndCheck.isOnScreen);
     }
 }
