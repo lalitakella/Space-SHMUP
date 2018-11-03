@@ -88,7 +88,7 @@ public class Enemy_4 : Enemy
     {
         return (Destroyed(FindPart(go)));
     }
-    bool Destroyed(GameObject n)
+    bool Destroyed(string n)
     {
         return (Destroyed(FindPart(n)));
     }
